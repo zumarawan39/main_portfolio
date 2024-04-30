@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- styling main   -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- responsive styling  -->
+    <link rel="stylesheet" href="./css/responsive.css">
+    <!-- icon link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+     <header id="myHeader">
+        <div class="overlay_main" id="overlay"></div>
+
+        <nav>
+            <div class="inner_nav inner">
+                <div class="logo">
+                    <h1><a href="#">Portfolio</a></h1>
+                </div>
+                <div class="list">
+                    <ul>
+                       <li id="fli"><i id="fli" class="fas fa-times"></i></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a> </li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="icons" id="icons">
+                    <span class="line" id="line"></span>
+                    <span class="line" id="line"></span>
+                    <span class="line" id="line"></span>
+                </div>
+            </div>
+        </nav>
+     </header>
+     <main>
+        <!-- main1 section  -->
+        <section>
+            <div class="main_1" id="home">
+                <div class="inner_main1 inner">
+                   <div class="left_main1">
+                       <h2>Hello,it's me</h2>
+                       <h1>Zumar Awan  </h1>
+                       <h3>I am
+                           <span class="typer" id="main" data-words="Software Engineer,Front End Dev,Back End Dev,MERN Stack Dev ,App Developer" data-delay="100" data-deleteDelay="1000" style="color: white;"></span>
+                           <span class="cursor" data-owner="main"></span>
+                         </h3   >
+                       <p>
+                        As a software engineer proficient in both front-end and back-end technologies, I honed my skills as a MERN
+                        stack developer.
+                        </p>
+                       <div class="socail_icons">
+                           <div class="icons2">
+                               <a  target="_blank" href="https://www.linkedin.com/in/zumar-awan-571967270/">
+                               <i class="fab fa-linkedin"></i>
+                               </a>
+                               <a  target="_blank" href="https://www.facebook.com/zumar.awan.54?mibextid=ZbWKwL">
+                                   <i class="fa-brands fa-facebook-f"></i>
+                               </a>
+                               <a  target="_blank" href="https://www.instagram.com/zumar_awan_g">
+                               <i class="fa-brands fa-instagram"></i>
+                               </a>
+                               <a  target="_blank" href="https://twitter.com/zumarawan3">
+                               <i class="fa-brands fa-twitter"></i> 
+                               </a>
+                           </div>
+                       </div>
+                       <button class="btn_1" onclick="downloadCV()">Download Cv</button>
+                   </div>
+                   <div class="right_main1">
+                       <div class="main_img">
+                           <img src="./images/my_img.png" alt="">
+                       </div>
+                   </div>
+                </div>
+           </div>
+        </section>
+        <!-- main2 section  -->
+       <section>
+        <div class="main_2" id="about">
+            <div class="inner_main2 inner">
+                <div class="left_main2">
+                    <div class="about_img">
+                       <img src="./images/about.png" alt="">
+                    </div>
+                </div>
+                <div class="rigth_main2">
+                    <div class="inner_right">
+                        <h1>About <span class="color">Me</span></h1>
+                        <h3>Software Engineer</h3>
+                        <p>As a software engineer proficient in both front-end and back-end technologies, I honed my skills as a MERN
+                            stack developer during my tenure at SeeBiz Pvt. Ltd. Leveraging React.js, Node.js, and MongoDB, I have
+                            consistently demonstrated the ability to integrate emerging technologies seamlessly into my projects, thereby
+                            distinguishing myself in the field of web development.
+                            
+                        </p>
+                        <button>Read More</button>
+                    </div>
+                </div>
+            </div>
+           </div>
+       </section>
+       <!-- main3 section  -->
+       <section>
+        <div class="main_3 " id="services">
+            <div class="inner_main3 inner">
+                <div class="heading_main3">
+                    <h1>Our <span class="color">Services</span></h1>
+                </div>
+                <div class="cards_main3">
+                    <div class="card_main3">
+                        <div class="icon">
+                            <i class="fas fa-code"></i> 
+                        </div>
+                        <h1>Web Development</h1>
+                        <p>
+                            I offer expert front-end web development services, specializing in crafting visually stunning and interactive user interfaces using HTML, CSS, and JavaScript. My aim is to deliver engaging, responsive designs that work seamlessly across all devices and browsers.
+                        </p>
+                        <button class="btn_card">Read More</button>
+                    </div>
+                    <div class="card_main3">
+                        <div class="icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h1>Graphic Designer</h1>
+                        <p>
+                            Experienced in the art of graphic design, I bring creativity and expertise to every project. With a keen eye for detail and a passion for visual storytelling, I specialize in crafting compelling designs that leave a lasting impression
+                        </p>
+                        <button class="btn_card">Read More</button>
+                    </div>
+                    <div class="card_main3">
+                        <div class="icon">
+                            <i class="fas fa-mobile-alt"></i>
+    
+                        </div>
+                        <h1>App Development</h1>
+                        <p>
+                            Skilled Flutter developer specializing in front-end mobile app development. Proficient in crafting sleek and responsive user interfaces for cross-platform applications. Dedicated to delivering seamless user experiences through innovative design and functionality.
+                        </p>
+                        <button class="btn_card">Read More</button>
+                    </div>
+    
+                </div>
+            </div>
+           </div>
+       </section>
+       <!-- main4 section  -->
+       <section>
+        <div class="main_4" id="projects">
+            <div class="inner_main4 inner">
+                <div class="heading_main3">
+                    <h1>Latest <span class="color">Projects</span></h1>
+                </div>
+                <div class="projects">
+                    <div class="project">
+                        <div class="project_img">
+                            <img src="./images/project_1.png" alt="">
+                            <div class="overlay overlay_1">
+                               <h1>Project 1</h1>
+                               <button><a href="https://zumarawan39.github.io/myportfolio1/" target="_blank">See Me</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project_img">
+                            <img src="./images/project_12.png" alt="">
+                            <div class="overlay overlay_2">
+                               <h1>Project 2</h1>
+                               <button><a href="https://zumarawan39.github.io/project_12/" target="_blank">See Me</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project_img">
+                            <img src="./images/project_13.png" alt="">
+                            <div class="overlay overlay_3">
+                               <h1>Project 3</h1>
+                               <button><a href="https://zumarawan39.github.io/project_13/" target="_blank">See Me</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project_img">
+                            <img src="./images/project_4.png" alt="">
+                            <div class="overlay overlay_4">
+                               <h1>Project 4</h1>
+                               <button><a href="https://zumarawan39.github.io/project_4/" target="_blank">See Me</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project_img">
+                            <img src="./images/project_2.png" alt="">
+                            <div class="overlay overlay_5">
+                               <h1>Project 5</h1>
+                               <button><a href="https://zumarawan39.github.io/project_2/" target="_blank">See Me</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project_img">
+                            <img src="./images/project_6.png" alt="">
+                            <div class="overlay overlay_6">
+                               <h1>Project 6</h1>
+                               <button><a href="https://zumarawan39.github.io/project_6/" target="_blank">See Me</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project_img">
+                            <img src="./images/project_7.png" alt="">
+                            <div class="overlay overlay_1">
+                               <h1>Project 7</h1>
+                               <button><a href="https://zumarawan39.github.io/project_7/" target="_blank">See Me</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project_img">
+                            <img src="./images/project_8.png" alt="">
+                            <div class="overlay overlay_2">
+                               <h1>Project 8</h1>
+                               <button><a href="https://zumarawan39.github.io/project_8/" target="_blank">See Me</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project_img">
+                            <img src="./images/project_9.png" alt="">
+                            <div class="overlay overlay_3">
+                               <h1>Project 9</h1>
+                               <button><a href="https://zumarawan39.github.io/project_9/" target="_blank">See Me</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project_img">
+                            <img src="./images/project_10.png" alt="">
+                            <div class="overlay overlay_4">
+                               <h1>Project 10</h1>
+                               <button><a href="https://zumarawan39.github.io/project_10/" target="_blank">See Me</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project_img">
+                            <img src="./images/project_11.png" alt="">
+                            <div class="overlay overlay_5">
+                               <h1>Project 11</h1>
+                               <button><a href="https://zumarawan39.github.io/fetchApi/" target="_blank">See Me</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project_img">
+                            <img src="./images/portfolio1.jpg" alt="">
+                            <div class="overlay overlay_6">
+                               <h1>Project 12</h1>
+                               <button><a href="https://zumarawan39.github.io/project_1/" target="_blank">See Me</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project_img">
+                            <img src="./images/project_3.png" alt="">
+                            <div class="overlay overlay_6">
+                               <h1>Project 13</h1>
+                               <button><a href="https://zumarawan39.github.io/project_3/" target="_blank">See Me</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project_img">
+                            <img src="./images/project_5.png" alt="">
+                            <div class="overlay overlay_6">
+                               <h1>Project 14</h1>
+                               <button><a href="https://zumarawan39.github.io/project_5/" target="_blank">See Me</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project_img">
+                            <img src="./images/project_14.png" alt="">
+                            <div class="overlay overlay_6">
+                               <h1>Project 15</h1>
+                               <button><a href="https://zumarawan39.github.io/project_14/" target="_blank">See Me</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+           </div>
+       </section>
+       <!-- main5 section  -->
+       <div class="main_5" id="contact">
+        <div class="inner_main5">
+            <div class="heading_main5">
+                <h1  class="fs_2">Contact <span class="color">  Me!</span></h1>
+            </div>
+            <form action="">
+                <div class="inner_form">
+                    <input type="text" placeholder="Enter Your  Name">
+                    <input type="text" placeholder="Enter Your  E-mail">
+                    <input type="number" placeholder="Enter Your  Phone-Number">
+                    <textarea name="" id=""  placeholder="Your Question?"></textarea>
+                    <button class="btn3">Submit</button>
+                </div>
+
+            </form>
+        </div>
+       </div>
+     </main>
+     <footer>
+        <div class="inner_footer">
+            <h3>Feedback welcomed! </h3>
+        </div>
+     </footer>
+     <a href="#" class="mainbtn"><i class="fa fa-arrow-up"></i></a>
+     <script src="./js/script.js"></script>
+     <!-- animation text link  -->
+     <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
+
+</body>
+</html>
